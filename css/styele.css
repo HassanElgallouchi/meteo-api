@@ -1,3 +1,9 @@
+/* Fonts Import */
+@font-face {
+    font-family: "Concert One";
+    src: url("/fonts/ConcertOne-Regular.ttf");
+}
+
 /* Reset */
 * {
   margin: 0;
@@ -5,7 +11,7 @@
   box-sizing: border-box;
 }
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Concert One", Arial, Helvetica, sans-serif;
 }
 main {
   background-color: #f9f9f9;
