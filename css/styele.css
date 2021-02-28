@@ -23,7 +23,8 @@ main .container {
 .meteo-app {
   margin: 0 auto;
   width: 360px;
-  background-color: rgb(7, 160, 216);
+  /* background-color: rgb(7, 160, 216); */
+  background-image: linear-gradient(to right bottom, #0d72cb, #771ab8);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -96,4 +97,37 @@ input[type="submit"] {
 .temp {
   margin: 1rem;
   text-transform: uppercase;
+}
+/**/
+.prevision {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-between;
+  border: 2px solid rgba(114, 200, 253, 0.3);
+}
+.prevision > div {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.prevision > div:not(:last-of-type) {
+  border-right: 2px solid rgba(114, 200, 253, 0.3);
+}
+.prevision > div > span {
+  padding: 0.3rem;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: lighter;
+  font-size: 0.7rem;
+  font-family: Arial, Helvetica, sans-serif;
+  border-bottom: 2px solid rgba(114, 200, 253, 0.3);
+}
+.prevision > div > p {
+  padding: 0.7rem;
+  font-size: 1.3rem;
+  color: #fff;
 }
