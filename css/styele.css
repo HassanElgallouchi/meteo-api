@@ -21,9 +21,9 @@ main .container {
   margin: 0 auto;
 }
 .meteo-app {
+  width: 100%;
+  /* width: 24rem; */
   margin: 0 auto;
-  width: 360px;
-  /* background-color: rgb(7, 160, 216); */
   background-image: linear-gradient(to right bottom, #0d72cb, #771ab8);
   display: flex;
   flex-direction: column;
@@ -130,4 +130,61 @@ input[type="submit"] {
   padding: 0.7rem;
   font-size: 1.3rem;
   color: #fff;
+}
+
+.taskbar {
+  background-color: #151a39;
+  height: 1.3rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #fff;
+  font-size: 0.8rem;
+  padding: 0.1rem 0.5rem;
+}
+.screen-phone {
+  background: #333;
+  padding: 3rem 1rem 4rem;
+  width: 25rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 5rem auto;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+}
+.screen-phone::before {
+  content: "";
+  position: absolute;
+  top: 15px;
+  background: #ddd;
+  height: 10px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 0.3rem;
+}
+.screen-phone::after {
+  content: "";
+  width: 3rem;
+  height: 3rem;
+  background: #ddd;
+  position: absolute;
+  bottom: 0.5rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
