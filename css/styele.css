@@ -22,13 +22,14 @@ main .container {
 }
 .meteo-app {
   width: 100%;
-  /* width: 24rem; */
+  max-height: 40rem;
   margin: 0 auto;
   background-image: linear-gradient(to right bottom, #0d72cb, #771ab8);
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 2rem;
+  overflow: auto;
 }
 .search {
   display: flex;
