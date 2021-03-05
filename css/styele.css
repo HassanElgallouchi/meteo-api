@@ -13,9 +13,6 @@
 body {
   font-family: "Concert One", Arial, Helvetica, sans-serif;
 }
-main {
-  background-color: #f9f9f9;
-}
 main .container {
   width: 80%;
   margin: 0 auto;
