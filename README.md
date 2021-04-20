@@ -4,11 +4,9 @@ meteo-api est application web pour afficher la météo, crée avec  pour mettre 
 
 ## API
 
-Lien de l'API → [API Météo](https://openweathermap.org/api)
+#### Démo → [Météo Api](https://hassanelgallouchi.github.io/meteo-api/)
 
-
-### Démo → [Météo Api](https://hassanelgallouchi.github.io/meteo-api/)
-
+#### Lien de l'API → [https://openweathermap.org/api](https://openweathermap.org/api)
 
 ## Compétences
 
