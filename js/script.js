@@ -6,7 +6,8 @@ let btnSubmit = document.querySelector('input[type=submit]');
 
 // La requette avec options → Ville
 let getUrl = (ville) => {
-    let url = `http://api.openweathermap.org/data/2.5/weather?q=${ville}&appid=84acba7d48b3a8080b4011ad177b8a26&units=metric&lang=fr`;
+    let appId = '84acba7d48b3a8080b4011ad177b8a26';
+    let url = `http://api.openweathermap.org/data/2.5/weather?q=${ville}&appid=${appId}&units=metric&lang=fr`;
     return url;
 }
 
