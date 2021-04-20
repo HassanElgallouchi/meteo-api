@@ -1,7 +1,7 @@
 /* Fonts Import */
 @font-face {
   font-family: "Concert One";
-  src: url("/fonts/ConcertOne-Regular.ttf");
+  src: url("../fonts/ConcertOne-Regular.ttf");
 }
 
 /* Reset */
