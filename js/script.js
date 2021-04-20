@@ -7,13 +7,15 @@ let btnSubmit = document.querySelector('input[type=submit]');
 // La requette avec options → Ville
 let getUrl = (ville) => {
     let appId = '84acba7d48b3a8080b4011ad177b8a26';
-    let url = `http://api.openweathermap.org/data/2.5/weather?q=${ville}&appid=${appId}&units=metric&lang=fr`;
+    let url = `https://api.openweathermap.org/data/2.5/weather?q=${ville}&appid=${appId}&units=metric&lang=fr`;
     return url;
 }
 
 // Créer la function getData async
 let getData = async (url) => {
-    let response = await fetch(url);
+    let response = await fetch(url, {
+        method: "GET"
+    });
     let json = await response.json();
     return json;
 }
